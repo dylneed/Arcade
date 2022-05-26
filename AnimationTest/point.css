@@ -1,0 +1,22 @@
+*{
+	background-color: white;
+}
+
+#ball{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	transform: rotate(0deg);
+	background-color:transparent;
+}
+
+#text{
+	position: absolute;
+	top: 0px;
+	z-index:-1;
+	font-size: 64pt;
+	font-family: Comic Sans MS, sans-serif;
+	color:red;
+}
